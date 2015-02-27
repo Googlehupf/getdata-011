@@ -9,7 +9,7 @@ The script `run_analysis.R` will write a tidy dataset `tidy_HAR_means.txt` to yo
 
 
 ## Prerequisites
-The Samsung Data Folder `(UCI_HAR_DATASET)` must be in your active working directory.
+The Samsung Data Folder `(UCI_HAR_DATASET)` must be in your active working directory. *Note the added underscores in the file path, added to avoid errors when reading in the data in Solaris OS and older Windows versions.*
 
 You should have access to the `CodeBook.md` file.
 
